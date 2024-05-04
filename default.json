@@ -1,0 +1,650 @@
+{
+  "metadata": {
+    "blacklist": true,
+    "servers": [
+      "play.moonlight.pub"
+    ]
+  },
+  "items": [
+    {
+      "key": "scoreboard.login.line4",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fRegister: /register <password> <confirm password>",
+        "zh_CN": "&f注册: /reg <密码> <重复密码>"
+      }
+    },
+    {
+      "key": "scoreboard.login.line6",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fLogin: /login <password>",
+        "zh_CN": "&f登录: /l <密码>"
+      }
+    },
+    {
+      "key": "actionbar.login.universal.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "Exploiting unfair advantages is prohibited.",
+        "zh_CN": "严禁 使用任何理由影响游戏平衡"
+      }
+    },
+    {
+      "key": "tab.login.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&eYou are currently at: Login",
+        "zh_CN": "&e当前为登录服务器"
+      }
+    },
+    {
+      "key": "prompt.login_hint.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Log in with &b/login <password>",
+        "zh_CN": "&7请输入 &b/l <密码> &7进行登录"
+      }
+    },
+    {
+      "key": "prompt.register_hint.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Register with &b/register <password> <confirmPassword>",
+        "zh_CN": "&7注册输入 &b/reg <密码> <重复密码>"
+      }
+    },
+    {
+      "key": "prompt.register_success.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aSuccessfully registered. Welcome to Crazylands!",
+        "zh_CN": "&a恭喜您注册成功"
+      }
+    },
+    {
+      "key": "prompt.login_success.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aYou are now logged in.",
+        "zh_CN": "&a已成功为您进行登录"
+      }
+    },
+    {
+      "key": "prompt.login_error.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cAn error occured!",
+        "zh_CN": "&c登录错误!"
+      }
+    },
+    {
+      "key": "prompt.auto_login.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aWelcome back.",
+        "zh_CN": "&a已成功为您进行自动登录!"
+      }
+    },
+    {
+      "key": "prompt.reauth.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&8Session information changed. Authentication required.",
+        "zh_CN": "&8您当前IP检测有改动 需要重新登录!"
+      }
+    },
+    {
+      "key": "prompt.entry.3",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Crazylands is in public beta.",
+        "zh_CN": "&7这是一个原创多模式的职业小游戏群组服务器"
+      }
+    },
+    {
+      "key": "prompt.entry.4",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Suggestions and feedbacks is welcome!",
+        "zh_CN": "&7感谢您的支持与喜爱!"
+      }
+    },
+    {
+      "key": "prompt.entry.6",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Our QQ group chat number: &a389325267",
+        "zh_CN": "&7Our QQ group chat number: &a389325267"
+      }
+    },
+    {
+      "key": "npc.contributor0.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "OWNER: fk_binqi",
+        "zh_CN": "fk_binqi"
+      }
+    },
+    {
+      "key": "npc.contributor1.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "BUILDER: MaseCodec_",
+        "zh_CN": "建筑: MaseCodec_"
+      }
+    },
+    {
+      "key": "npc.contributor2.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "OP: 99885",
+        "zh_CN": "管理:99885"
+      }
+    },
+    {
+      "key": "npc.contributor3.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "OP: XLng",
+        "zh_CN": "管理:XLng"
+      }
+    },
+    {
+      "key": "npc.contributor4.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "CLRPG DEV: RoYing",
+        "zh_CN": "RPG生存技术:RoYing"
+      }
+    },
+    {
+      "key": "hologram.premium_verifier.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": "&e点我进行正版认证服务"
+      }
+    },
+    {
+      "key": "npc.premium_verifier.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&a&lPremium Verification",
+        "zh_CN": "&a&l正版认证"
+      }
+    },
+    {
+      "key": "container.premium_verifier.title.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&9&lPremium Verification",
+        "zh_CN": "&9&l正版认证服务"
+      }
+    },
+    {
+      "key": "container.premium_verifier.item0.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Click here to verify",
+        "zh_CN": "&7正版认证"
+      }
+    },
+    {
+      "key": "container.premium_verifier.item0.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cVerified players gets a rank!",
+        "zh_CN": "&c点击进行认证"
+      }
+    },
+    {
+      "key": "container.premium_verifier.item0.lore.line5",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": "&c请放心 我们不会侵犯隐私密码"
+      }
+    },
+    {
+      "key": "container.premium_verifier.item0.lore.line6",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": "&c验证服务器是通过直接进入服务器判定的"
+      }
+    },
+    {
+      "key": "container.premium_verifier.item1.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&l&bVerification Status:",
+        "zh_CN": "&l&b正版认证"
+      }
+    },
+    {
+      "key": "container.premium_verifier.item1.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cVerified players gets a rank!",
+        "zh_CN": "&c判断您是否认证完服务的工具"
+      }
+    },
+    {
+      "key": "container.premium_verifier.item1.lore.line6",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": "&a若没有认证,请点击隔壁按钮进行认证"
+      }
+    },
+    {
+      "key": "container.premium_verifier.shared.verify_hint.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&8Note: If you don't see the status change",
+        "zh_CN": "&8注:可能会因各种原因认证失败"
+      }
+    },
+    {
+      "key": "container.premium_verifier.shared.verify_hint.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&8after verifying, try repeating the process.",
+        "zh_CN": "&8建议多尝试自己"
+      }
+    },
+    {
+      "key": "prompt.premium_verification_started.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aStart verifying with: &c/zb start",
+        "zh_CN": "&a请输入 &c/zb start &a进行认证&7(注意查收验证服务器地址)"
+      }
+    },
+    {
+      "key": "prompt.premium_verification_success.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aVerification success.",
+        "zh_CN": "&a恭喜您已经成功认证完成啦!"
+      }
+    },
+    {
+      "key": "npc.login.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&eEnter Crazylands",
+        "zh_CN": "&e~\\进入新世界//~"
+      }
+    },
+    {
+      "key": "container.login.title.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "Enter Crazylands",
+        "zh_CN": "传送页面"
+      }
+    },
+    {
+      "key": "scoreboard.shared.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fPlayer Name",
+        "zh_CN": "&f名称"
+      }
+    },
+    {
+      "key": "scoreboard.universal.line4",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fLevel",
+        "zh_CN": "&f星级"
+      }
+    },
+    {
+      "key": "scoreboard.universal.line6",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fCoins",
+        "zh_CN": "&f硬币余额"
+      }
+    },
+    {
+      "key": "scoreboard.shared.line8",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fOnline",
+        "zh_CN": "&f总在线"
+      }
+    },
+    {
+      "key": "tab.shared.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&b&lUltrakits / 1.9+ Duels / Survival / Minigames",
+        "zh_CN": "&b&l原创多模式小游戏群组服务器"
+      }
+    },
+    {
+      "key": "tab.shared.line7",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aHave fun in Crazylands!",
+        "zh_CN": "&a希望给您带来最好的游玩体验"
+      }
+    },
+    {
+      "key": "prompt.boardcast.universal.item0.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fWe strive to make our server a &arespectful &fand &afriendly",
+        "zh_CN": "&f请在游玩的过程中互相尊重对方"
+      }
+    },
+    {
+      "key": "prompt.boardcast.universal.item0.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fplace for&a everyone&f to enjoy. Without these guidelines",
+        "zh_CN": "&f保持良好积极的游戏态度 好的 &a游戏环境 &f从你我做起"
+      }
+    },
+    {
+      "key": "prompt.boardcast.universal.item0.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&9Crazylands &fwouldn't have been what it is today.",
+        "zh_CN": "&f切勿在游玩当中使用一些优势性 &c模组/辅助"
+      }
+    },
+    {
+      "key": "prompt.boardcast.universal.item1.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fIf you found &csuspicious players &fwhile playing,",
+        "zh_CN": "&f如果您在游玩过程中发现了外挂"
+      }
+    },
+    {
+      "key": "prompt.boardcast.universal.item1.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fbe sure to report them with &c/report <player> <reason>&f.",
+        "zh_CN": "&f请使用 &c/report &f向在线封弊组进行举报!"
+      }
+    },
+    {
+      "key": "prompt.boardcast.universal.item1.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fAdditional evidence such as footages and screenshots",
+        "zh_CN": "&f我们在收到举报后,会及时进行调查处理"
+      }
+    },
+    {
+      "key": "prompt.boardcast.universal.item1.line3",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fcan also help us detect malicious players.",
+        "zh_CN": "&f或者您也可以录像发至官方群进行反馈哦!"
+      }
+    },
+    {
+      "key": "prompt.boardcast.universal.item2.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fServer commands crash course:",
+        "zh_CN": "&f游戏内可通过指令 &b/hub &f返回大厅!"
+      }
+    },
+    {
+      "key": "prompt.boardcast.universal.item2.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&a/hub &fsends you to the lobby, &e/stats &fdisplays your statistics,",
+        "zh_CN": "&f使用 &b/hh 可以呼喊大家一起玩"
+      }
+    },
+    {
+      "key": "prompt.boardcast.universal.item2.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fand &c/hh <text> &fuses a megaphone to send a server-wide boardcast!",
+        "zh_CN": "&f服务器招收&6主播&f中"
+      }
+    },
+    {
+      "key": "prompt.boardcast.universal.item3.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&9Crazylands &fis a community-driven server.",
+        "zh_CN": "&9Crazylands &f是一个社区公益服务器"
+      }
+    },
+    {
+      "key": "prompt.boardcast.universal.item3.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fFind our official resources at:",
+        "zh_CN": "&b游玩交流群: &a389325267"
+      }
+    },
+    {
+      "key": "prompt.boardcast.universal.item3.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&bspace.bilibili.com/286908202",
+        "zh_CN": "&f要不要了解一下?"
+      }
+    },
+    {
+      "key": "prompt.boardcast.ultrakits.item0.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fBe assured that kit skins in &eUltrakits &fare purely visual,",
+        "zh_CN": "&f请放心 &e职业战争 &f中的皮肤没有任何加成"
+      }
+    },
+    {
+      "key": "prompt.boardcast.ultrakits.item0.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fplus all of them can only be bought with in-game coins.",
+        "zh_CN": "&f仅仅有特效和音效的一些区分"
+      }
+    },
+    {
+      "key": "prompt.boardcast.ultrakits.item0.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&9Crazylands &fsimply isn't pay-to-win.",
+        "zh_CN": "&f本服务器没有 &6氪金内容 &f您可以放心游玩该服务器"
+      }
+    },
+    {
+      "key": "prompt.boardcast.ultrakits.item1.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&eUltrakits &fis highly customized and not necessarily vanilla-friendly,",
+        "zh_CN": "&f本服 &e职业战争 &f与其他服略有不同"
+      }
+    },
+    {
+      "key": "prompt.boardcast.ultrakits.item1.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fthus new players might be confused. Try and learn is essential!",
+        "zh_CN": "&f您可以尝试耐心游玩 &a教程 &f可在菜单中查收哦!"
+      }
+    },
+    {
+      "key": "prompt.boardcast.ultrakits.item1.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": "&f游玩过程中如有不懂的地方可以求助其他等级高的玩家哦!"
+      }
+    },
+    {
+      "key": "hologram.server_help.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&eNew to Crazylands?",
+        "zh_CN": "&e助您更快的了解此服务器"
+      }
+    },
+    {
+      "key": "npc.server_help.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&b&lHelp Center",
+        "zh_CN": "&b&l游戏帮助"
+      }
+    },
+    {
+      "key": "container.server_help.title.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&9&lHelp Center",
+        "zh_CN": "&9&l帮助&b页面"
+      }
+    },
+    {
+      "key": "container.server_help.item0.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fOur Bilibili Channel",
+        "zh_CN": "&f宣发账号"
+      }
+    },
+    {
+      "key": "container.server_help.item0.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Be sure to check for new videos!",
+        "zh_CN": "&7请认准 &a\"橙子味的冰淇淇\""
+      }
+    },
+    {
+      "key": "container.server_help.item0.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": "&9将会在该账户发送宣发内容"
+      }
+    },
+    {
+      "key": "container.server_help.item1.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fUltrakits Documentation (Chinese)",
+        "zh_CN": "&f职业详细资料"
+      }
+    },
+    {
+      "key": "container.server_help.item1.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Ultrakits is our unique approach on the Kitwars genre.",
+        "zh_CN": "&7职业为本服务器&e特色玩法&7推荐了解后进行游玩"
+      }
+    },
+    {
+      "key": "container.server_help.item1.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": "&9为防止被暴打和不理解将提供教程帮助"
+      }
+    },
+    {
+      "key": "container.server_help.item2.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fOur Kook server",
+        "zh_CN": "&f服务器Kook频道"
+      }
+    },
+    {
+      "key": "container.server_help.item2.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Check here for server changelogs!",
+        "zh_CN": "&7为服务器专门打造的通讯频道服务"
+      }
+    },
+    {
+      "key": "container.server_help.item2.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": "&9您可以在上面查收一些更新信息等内容"
+      }
+    },
+    {
+      "key": "container.server_help.item3.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&eCrazylands Starter Pack",
+        "zh_CN": "&e头一次玩? 点击领取帮助福利"
+      }
+    },
+    {
+      "key": "container.server_help.item3.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Features: &a500-1800 &7coins",
+        "zh_CN": "&7点击领取 &a500-1800 &7硬币"
+      }
+    },
+    {
+      "key": "container.server_help.item3.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&9",
+        "zh_CN": "&9以提供让您购买部分职业的能力"
+      }
+    },
+    {
+      "key": "container.server_help.shared.link_hint",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e(Click for link)",
+        "zh_CN": "&e点击进行链接查收"
+      }
+    },
+    {
+      "key": "container.server_help.shared.starter_pack_can_claim",
+      "type": "text",
+      "languages": {
+        "en_GB": "&a(Click to claim)",
+        "zh_CN": "&a点击领取"
+      }
+    },
+    {
+      "key": "container.server_help.shared.starter_pack_claimed",
+      "type": "text",
+      "languages": {
+        "en_GB": "&c(Claimed)",
+        "zh_CN": "&c您已经领取过了哦!"
+      }
+    },
+    {
+      "key": "hologram.delivery_man.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": "&e每日签到获取丰厚奖励"
+      }
+    },
+    {
+      "key": "npc.delivery_man.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&b&lDelivery Man",
+        "zh_CN": "&b&l每日奖励"
+      }
+    },
+  ]
+}
