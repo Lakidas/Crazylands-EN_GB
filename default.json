@@ -42,7 +42,7 @@
       "key": "prompt.login_hint.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&7Log in with &b/login <password>",
+        "en_GB": "&7Log in with &b/login <password>&7.",
         "zh_CN": "&7请输入 &b/l <密码> &7进行登录"
       }
     },
@@ -50,7 +50,7 @@
       "key": "prompt.register_hint.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&7Register with &b/register <password> <confirmPassword>",
+        "en_GB": "&7Register with &b/register <password> <confirmPassword>&7.",
         "zh_CN": "&7注册输入 &b/reg <密码> <重复密码>"
       }
     },
@@ -95,7 +95,7 @@
       }
     },
     {
-      "key": "prompt.entry.3",
+      "key": "prompt.entry.line3",
       "type": "text",
       "languages": {
         "en_GB": "&7Crazylands is in public beta.",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "key": "prompt.entry.4",
+      "key": "prompt.entry.line4",
       "type": "text",
       "languages": {
         "en_GB": "&7Suggestions and feedbacks is welcome!",
@@ -111,11 +111,27 @@
       }
     },
     {
-      "key": "prompt.entry.6",
+      "key": "prompt.entry.line6",
       "type": "text",
       "languages": {
         "en_GB": "&7Our QQ group chat number: &a389325267",
         "zh_CN": "&7Our QQ group chat number: &a389325267"
+      }
+    },
+    {
+      "key": "prompt.lobby_entry.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aFetching available lobbies...",
+        "zh_CN": "&a正在为您分配服务器进行传送..."
+      }
+    },
+    {
+      "key": "title.lobby_entry.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&b&lYou are current at:",
+        "zh_CN": "&b&l当前所在频道"
       }
     },
     {
@@ -202,7 +218,7 @@
       "key": "container.premium_verifier.item0.lore.line5",
       "type": "text",
       "languages": {
-        "en_GB": "",
+        "en_GB": "&cWorry not! The whole verification process simply",
         "zh_CN": "&c请放心 我们不会侵犯隐私密码"
       }
     },
@@ -210,7 +226,7 @@
       "key": "container.premium_verifier.item0.lore.line6",
       "type": "text",
       "languages": {
-        "en_GB": "",
+        "en_GB": "&cinvolves entering a specified premium server.",
         "zh_CN": "&c验证服务器是通过直接进入服务器判定的"
       }
     },
@@ -223,10 +239,10 @@
       }
     },
     {
-      "key": "container.premium_verifier.item1.lore.line0",
+      "key": "container.premium_verifier.item1.lore.line5",
       "type": "text",
       "languages": {
-        "en_GB": "&cVerified players gets a rank!",
+        "en_GB": "&cThis indicates whether you successfully completed",
         "zh_CN": "&c判断您是否认证完服务的工具"
       }
     },
@@ -234,7 +250,7 @@
       "key": "container.premium_verifier.item1.lore.line6",
       "type": "text",
       "languages": {
-        "en_GB": "",
+        "en_GB": "&cthe premium verification process or not.",
         "zh_CN": "&a若没有认证,请点击隔壁按钮进行认证"
       }
     },
