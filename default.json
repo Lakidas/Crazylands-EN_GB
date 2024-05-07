@@ -662,5 +662,285 @@
         "zh_CN": "&b&l每日奖励"
       }
     },
+    {
+      "key": "container.delivery_man.title.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&b&lDelivery Man",
+        "zh_CN": "&r礼包"
+      }
+    },
+    {
+      "key": "container.delivery_man.item0.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aFestival Gifts",
+        "zh_CN": "&a节日礼盒"
+      }
+    },
+    {
+      "key": "container.delivery_man.item0.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7China, the home of &9Crazylands&7, has an abundance of unique",
+        "zh_CN": "&7一年四季节日颇多"
+      }
+    },
+    {
+      "key": "container.delivery_man.item0.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7traditional festivals. We hope that these cheerful moments",
+        "zh_CN": "&7拥有&b5000&7年文明的"
+      }
+    },
+    {
+      "key": "container.delivery_man.item0.lore.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7can be shared with everyone across the globe.",
+        "zh_CN": "&c中国&7,节日也必不可少"
+      }
+    },
+    {
+      "key": "container.delivery_man.item0.lore.line3",
+      "type": "text",
+      "languages": {
+        "en_GB": "&eClick to open menu",
+        "zh_CN": "&e点击打开"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item0.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aNew Year's Day",
+        "zh_CN": "&a元旦节"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item0.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7January 1st",
+        "zh_CN": "&7日期: 1月1日"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item1.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&dValetine's Day",
+        "zh_CN": "&d情人节"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item1.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Feburary 14th",
+        "zh_CN": "&7日期: 2月14日"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item2.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&2Arbor Day",
+        "zh_CN": "&2植树节"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item2.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7March 12th",
+        "zh_CN": "&7日期: 3月12日"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item3.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&bApril Fools' Day",
+        "zh_CN": "&b愚人节"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item3.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7April 1st",
+        "zh_CN": "&7日期: 4月1日"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item4.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&eLabor Day",
+        "zh_CN": "&e劳动节"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item4.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7May 1st",
+        "zh_CN": "&7日期: 5月1日"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item5.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aChildren's Day",
+        "zh_CN": "&a儿童节"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item5.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7June 1st",
+        "zh_CN": "&7日期: 6月1日"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item6.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cCPC's Founding Day",
+        "zh_CN": "&c建党节"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item6.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7July 1st",
+        "zh_CN": "&7日期: 7月1日"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item7.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&6China's Army Day",
+        "zh_CN": "&6建军节"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item7.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7August 1st",
+        "zh_CN": "&7日期: 8月1日"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item8.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aDouble Ninth Festival",
+        "zh_CN": "&a重阳节"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item8.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7September 9th",
+        "zh_CN": "&7日期: 9月9日"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item9.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cChina's National Day",
+        "zh_CN": "&c国庆节"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item9.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7October 1st",
+        "zh_CN": "&7日期: 10月1日"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item10.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aThanksgiving",
+        "zh_CN": "&a感恩节"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item10.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7November 24th",
+        "zh_CN": "&7日期: 11月24日"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item11.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&c&lNew Year's Eve",
+        "zh_CN": "&c&l跨年日"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item11.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7December 31th",
+        "zh_CN": "&7日期: 12月31日"
+      }
+    },
+    {
+      "key": "container.delivery_man.shared.can_claim",
+      "type": "text",
+      "languages": {
+        "en_GB": "&a(Click to claim)",
+        "zh_CN": "&a点击领取"
+      }
+    },
+    {
+      "key": "container.delivery_man.shared.claimed",
+      "type": "text",
+      "languages": {
+        "en_GB": "&c(Claimed)",
+        "zh_CN": "&c已领取"
+      }
+    },
+    {
+      "key": "container.delivery_man.shared.monthly_claimed",
+      "type": "text",
+      "languages": {
+        "en_GB": "&c(Claimed)",
+        "zh_CN": "&c本月已领取"
+      }
+    },
+    {
+      "key": "container.delivery_man.shared.festival_not_in_time",
+      "type": "text",
+      "languages": {
+        "en_GB": "&c(Check back in the correct date!)",
+        "zh_CN": "&c时间未到"
+      }
+    },
+    {
+      "key": "container.delivery_man.shared.festival_not_in_time",
+      "type": "text",
+      "languages": {
+        "en_GB": "&c(Check back in the correct date!)",
+        "zh_CN": "&c时间未到"
+      }
+    },
   ]
 }
