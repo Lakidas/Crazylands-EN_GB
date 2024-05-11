@@ -674,15 +674,15 @@
       "key": "container.delivery_man.item0.name.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&aFestival Gifts",
-        "zh_CN": "&a节日礼盒"
+        "en_GB": "&aFestival Specials",
+        "zh_CN": "&a节日礼包"
       }
     },
     {
       "key": "container.delivery_man.item0.lore.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&7China, the home of &9Crazylands&7, has an abundance of unique",
+        "en_GB": "&7China, where &9Crazylands&7 originated, has an abundance of",
         "zh_CN": "&7一年四季节日颇多"
       }
     },
@@ -706,7 +706,7 @@
       "key": "container.delivery_man.item0.lore.line3",
       "type": "text",
       "languages": {
-        "en_GB": "&eClick to open menu",
+        "en_GB": "&eClick to see list",
         "zh_CN": "&e点击打开"
       }
     },
@@ -903,6 +903,22 @@
       }
     },
     {
+      "key": "container.delivery_man.festivals.item12.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cGo back",
+        "zh_CN": "&c返回"
+      }
+    },
+    {
+      "key": "container.delivery_man.festivals.item12.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Click to go back",
+        "zh_CN": "&7点击返回上级菜单"
+      }
+    },
+    {
       "key": "container.delivery_man.shared.can_claim",
       "type": "text",
       "languages": {
@@ -930,16 +946,1032 @@
       "key": "container.delivery_man.shared.festival_not_in_time",
       "type": "text",
       "languages": {
-        "en_GB": "&c(Check back in the correct date!)",
+        "en_GB": "&c(Incorrect date!)",
         "zh_CN": "&c时间未到"
       }
     },
     {
-      "key": "container.delivery_man.shared.festival_not_in_time",
+      "key": "container.delivery_man.shared.bundle_contents",
       "type": "text",
       "languages": {
-        "en_GB": "&c(Check back in the correct date!)",
-        "zh_CN": "&c时间未到"
+        "en_GB": "&6Contains:",
+        "zh_CN": "&6内容:"
+      }
+    },
+    {
+      "key": "container.delivery_man.shared.coins",
+      "type": "text",
+      "languages": {
+        "en_GB": "&6 coins",
+        "zh_CN": "&6硬币"
+      }
+    },
+    {
+      "key": "container.delivery_man.shared.exp",
+      "type": "text",
+      "languages": {
+        "en_GB": "&3 XP",
+        "zh_CN": "&3经验"
+      }
+    },
+    {
+      "key": "container.delivery_man.item1.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aDaily Bundle",
+        "zh_CN": "&a每日礼包"
+      }
+    },
+    {
+      "key": "container.delivery_man.item1.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Refreshes daily",
+        "zh_CN": "&7每日可领取一次"
+      }
+    },
+    {
+      "key": "container.delivery_man.item2.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&bMystery Box",
+        "zh_CN": "&b神秘箱 * 1"
+      }
+    },
+    {
+      "key": "container.delivery_man.item2.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Refreshes monthly",
+        "zh_CN": "&7每月可领取一次"
+      }
+    },
+    {
+      "key": "container.delivery_man.item3.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aWeekly Bundle",
+        "zh_CN": "&a每周礼包"
+      }
+    },
+    {
+      "key": "container.delivery_man.item3.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Refreshes weekly",
+        "zh_CN": "&7每周可领取一次"
+      }
+    },
+    {
+      "key": "container.delivery_man.item4.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cClose",
+        "zh_CN": "&c关闭菜单"
+      }
+    },
+    {
+      "key": "container.delivery_man.item4.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Click to close",
+        "zh_CN": "&7点击关闭菜单"
+      }
+    },
+    {
+      "key": "hologram.beta_notice.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&8>] &6Notice! &8[<",
+        "zh_CN": "&8>] &9Crazy&bLands &6&l体验服 &r&8[<"
+      }
+    },
+    {
+      "key": "hologram.beta_notice.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&9Crazylands &fis still under active development.",
+        "zh_CN": "&f体验服更新预计会领先&e&n正式服&r&f半个月"
+      }
+    },
+    {
+      "key": "hologram.beta_notice.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fIf you found the server behaving unexpectedly by any means,",
+        "zh_CN": "&f如果您在体验中发现任何&c问题&f请及时反馈"
+      }
+    },
+    {
+      "key": "hologram.beta_notice.line3",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fbe sure to reach out to us!",
+        "zh_CN": "&a感谢您的加入和配合体验测试!"
+      }
+    },
+    {
+      "key": "hologram.coin_loot_box.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e&lLoot Box (Coin)",
+        "zh_CN": "&e&l硬币宝箱"
+      }
+    },
+    {
+      "key": "hologram.coin_loot_box.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Costs &e100 coins",
+        "zh_CN": "&7使用 &b硬币 &7进行抽奖"
+      }
+    },
+    {
+      "key": "hologram.coin_loot_box.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7(Shift+Click to skip animation)",
+        "zh_CN": "&7每次抽奖将花费 &e100 硬币"
+      }
+    },
+    {
+      "key": "hologram.diamond_loot_box.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&c[WIP] &e&lLoot Box (Diamond)",
+        "zh_CN": "&e&l钻石宝箱"
+      }
+    },
+    {
+      "key": "hologram.diamond_loot_box.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Costs &e50 diamonds",
+        "zh_CN": "&7使用 &b钻石 &7进行抽奖"
+      }
+    },
+    {
+      "key": "hologram.diamond_loot_box.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7(Shift+Click to skip animation)",
+        "zh_CN": "&7每次抽奖将花费 &e100 硬币"
+      }
+    },
+    {
+      "key": "hologram.diamond_loot_box.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Costs &e50 diamonds",
+        "zh_CN": "&7使用 &b钻石 &7进行抽奖"
+      }
+    },
+    {
+      "key": "hologram.shared.player_count",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e(Player count: %s%)",
+        "zh_CN": "&e%s%名玩家正在游戏中"
+      }
+    },
+    {
+      "key": "npc.arcade.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&b&lMinigames",
+        "zh_CN": "&b&l街机游戏"
+      }
+    },
+    {
+      "key": "npc.ultrakits.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&b&lUltrakits",
+        "zh_CN": "&b&l职业休闲赛"
+      }
+    },
+    {
+      "key": "npc.duels.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&b&l1.9+ Duels",
+        "zh_CN": "&b&l决斗游戏"
+      }
+    },
+    {
+      "key": "sign.contributors.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "纪念殿堂",
+        "zh_CN": "Hall of Contributors"
+      }
+    },
+    {
+      "key": "sign.contributors.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": ""
+      }
+    },
+    {
+      "key": "sign.contributors.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "||",
+        "zh_CN": "||"
+      }
+    },
+    {
+      "key": "sign.contributors.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "+++++++++++++++++",
+        "zh_CN": "+++++++++++++++++"
+      }
+    },
+    {
+      "key": "sign.contributor0.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "MaseCodec_",
+        "zh_CN": "MaseCodec_"
+      }
+    },
+    {
+      "key": "sign.contributor0.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "Grandmaster Builder",
+        "zh_CN": "本服务器的主建筑师"
+      }
+    },
+    {
+      "key": "sign.contributor0.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "-Made literally every",
+        "zh_CN": "至今为止疯狂之地所有"
+      }
+    },
+    {
+      "key": "sign.contributor0.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "map of Crazylands",
+        "zh_CN": "建筑都为此人所建"
+      }
+    },
+    {
+      "key": "sign.contributor1.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "fk_binqi",
+        "zh_CN": "fk_binqi"
+      }
+    },
+    {
+      "key": "sign.contributor1.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "Server Owner",
+        "zh_CN": "我们的腐竹大大"
+      }
+    },
+    {
+      "key": "sign.contributor1.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "-The one and only,",
+        "zh_CN": "至今为止疯狂之地所有"
+      }
+    },
+    {
+      "key": "sign.contributor1.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "since 2016!",
+        "zh_CN": "建筑都为此人所建"
+      }
+    },
+    {
+      "key": "sign.contributor2.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "99885",
+        "zh_CN": "99885"
+      }
+    },
+    {
+      "key": "sign.contributor2.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "Helper",
+        "zh_CN": "服务器历史上首个击杀"
+      }
+    },
+    {
+      "key": "sign.contributor2.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "-Likes osu! and abusing",
+        "zh_CN": "超过一定数额"
+      }
+    },
+    {
+      "key": "sign.contributor2.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "his power",
+        "zh_CN": "战争系列皮肤 开创者"
+      }
+    },
+    {
+      "key": "sign.contributor3.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "t736181955",
+        "zh_CN": "t736181955"
+      }
+    },
+    {
+      "key": "sign.contributor3.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "Long Time Player",
+        "zh_CN": "最初始游玩服务器的人"
+      }
+    },
+    {
+      "key": "sign.contributor3.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "-Is incredibly talented",
+        "zh_CN": "超过一定数额"
+      }
+    },
+    {
+      "key": "sign.contributor3.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "in bow aiming",
+        "zh_CN": "战争系列皮肤 开创者"
+      }
+    },
+    {
+      "key": "sign.contributor4.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "a603409682",
+        "zh_CN": "a603409682"
+      }
+    },
+    {
+      "key": "sign.contributor4.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "Helper",
+        "zh_CN": "刀侠享受者"
+      }
+    },
+    {
+      "key": "sign.contributor4.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "-Plays the Swordsman",
+        "zh_CN": ""
+      }
+    },
+    {
+      "key": "sign.contributor4.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "kit too well",
+        "zh_CN": ""
+      }
+    },
+    {
+      "key": "sign.contributor5.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "XLng",
+        "zh_CN": "XLng"
+      }
+    },
+    {
+      "key": "sign.contributor5.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "Admin, Maintainer",
+        "zh_CN": ""
+      }
+    },
+    {
+      "key": "sign.contributor5.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "-\"See my &oarch nemesis",
+        "zh_CN": ""
+      }
+    },
+    {
+      "key": "sign.contributor5.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&oover there?&r\"",
+        "zh_CN": "——我早晚把985杀了"
+      }
+    },
+    {
+      "key": "sign.contributor6.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "Lakidas",
+        "zh_CN": "Lakidas"
+      }
+    },
+    {
+      "key": "sign.contributor6.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "Translator",
+        "zh_CN": "负责服务器的英汉互译"
+      }
+    },
+    {
+      "key": "sign.contributor6.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "-Made this line of text",
+        "zh_CN": "文本工作者"
+      }
+    },
+    {
+      "key": "sign.contributor6.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "english",
+        "zh_CN": ""
+      }
+    },
+    {
+      "key": "sign.contributor7.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "Karkisuki",
+        "zh_CN": "Karkisuki"
+      }
+    },
+    {
+      "key": "sign.contributor7.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "Builder",
+        "zh_CN": "服务器建筑师"
+      }
+    },
+    {
+      "key": "sign.contributor7.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "-Created arenas for",
+        "zh_CN": "目前负责了竞技场的"
+      }
+    },
+    {
+      "key": "sign.contributor7.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "Crazylands Duels",
+        "zh_CN": "地图建筑"
+      }
+    },
+    {
+      "key": "sign.contributor8.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "CodeYun",
+        "zh_CN": "CodeYun"
+      }
+    },
+    {
+      "key": "sign.contributor8.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "Kit Design",
+        "zh_CN": "看门老大爷"
+      }
+    },
+    {
+      "key": "sign.contributor8.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "-Helped on polishing",
+        "zh_CN": ""
+      }
+    },
+    {
+      "key": "sign.contributor8.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "several Ultrakits kit",
+        "zh_CN": "专门指挥人做事"
+      }
+    },
+    {
+      "key": "hologram.shared.parkour_entry.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&a&l-PARKOUR-",
+        "zh_CN": "&a&l跑酷开始!"
+      }
+    },
+    {
+      "key": "hologram.shared.parkour_entry.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&b&l(&9/pk help &bfor command list)",
+        "zh_CN": "&b&l[输入/pk help获取帮助]"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.shared.open_hint",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Shows ",
+        "zh_CN": "&7去查看 "
+      }
+    },
+    {
+      "key": "container.lobby_inventories.shared.action_hint",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": "&7(右键点击)"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.shared.interact_key",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7(Hold & click to use)",
+        "zh_CN": "&7行动指令: &bRight-click"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.main.item0.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aGames Menu",
+        "zh_CN": "&a游戏菜单"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.main.item0.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7the game menu",
+        "zh_CN": "&7并选择要进行游玩的游戏"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.main.item1.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aPreferences",
+        "zh_CN": "&a个人信息"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.main.item1.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7your preferences",
+        "zh_CN": "&7围绕自己的一系列信息功能"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.main.item2.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aShop",
+        "zh_CN": "&a系统商城"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.main.item2.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7the server shop",
+        "zh_CN": "&7服务器官方提供的一些商品"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.main.item3.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aLobby selection (WIP)",
+        "zh_CN": "&a大厅选择(WIP)"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.main.item3.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7every available lobby",
+        "zh_CN": "&7服务器大厅列表"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.main.item4.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e&oFriends (WIP)",
+        "zh_CN": "&e&o好友菜单"
+      }
+    },
+    {
+      "key": "container.game_menus.main.title.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&b&lGame Menu",
+        "zh_CN": "&9&l游戏&b面板"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item0.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&6&lLobby",
+        "zh_CN": "&6&l主大厅"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item0.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7The main lobby of Crazylands.",
+        "zh_CN": "&7一个汇集各种功能的主要大厅"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item0.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Note that certain preferences",
+        "zh_CN": "&7很多玩家会在进入游戏前聚集于此"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item0.lore.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7can only be edited here!",
+        "zh_CN": "&7挑选各种游戏或是购买&e道具&7使用"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item1.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e&lUltrakits",
+        "zh_CN": "&e&l职业休闲赛 &r&o&cHot!"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item1.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Our unique approach on the Kitwars genre,",
+        "zh_CN": "&7拥有独特的&6机制职业&7的乱斗游戏"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item1.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7featuring highly specialized custom kits.",
+        "zh_CN": "&7带来不同寻常的&c竞技&7体验"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item1.lore.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Note: Ultrakits is being actively updated,",
+        "zh_CN": "&7这里吃的不再是MC高超PvP技巧"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item1.lore.line3",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7kit balance could change from time to time.",
+        "zh_CN": "&7而是你对职业或者是&d游戏&7的理解度"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item2.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e&lMinigames",
+        "zh_CN": "&e&l街机游戏 &r&o&cNew!"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item2.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7We've been planning for a variety of minigames,",
+        "zh_CN": "&7多种多样的&e街机小游戏&7玩法"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item2.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7however most of them are still in development.",
+        "zh_CN": "&7在紧张的环境中给您带来一定放松"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item2.lore.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fAvailable minigames:",
+        "zh_CN": "&f当前小游戏:"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item2.lore.line4",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aManhunt",
+        "zh_CN": "&a猎人游戏 &o&cHot!"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item2.lore.line5",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aBuild Battle",
+        "zh_CN": "&a建筑大师 &o&cNew!"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item2.lore.line6",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7(Stay tuned for more minigames!)",
+        "zh_CN": "&7更多游戏等待制作中..."
+      }
+    },
+    {
+      "key": "container.game_menus.main.item3.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e&l1.9+ Duels",
+        "zh_CN": "&e&l决斗游戏"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item3.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7We strive to create a well polished, lag-free",
+        "zh_CN": "&7专业性质的&c原版PvP&7服务器"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item3.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7experience for the most dedicated PvPers",
+        "zh_CN": "&7力争给玩家带来最好的竞技体验"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item3.lore.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7here at our 1.9+ Duels.",
+        "zh_CN": "&7是日常&a练刀SOLO&7的最好去处"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item3.lore.line3",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7*Features no knockback modifications.",
+        "zh_CN": "&7尽情的去提升自己的&6高版本PvP技术&7吧"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item4.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e&lFFA &r&c(WIP)",
+        "zh_CN": "&e&lFFA &r&o&bTest!"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item4.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Crazylands 1.9+ FFA can be played in 4 kits:",
+        "zh_CN": "&7一个练刀PvP的好去处"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item4.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Sword, Axe, BUHC, and Crystal.",
+        "zh_CN": "&7拥有着各式的&aKit&7玩法"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item4.lore.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7*Features no knockback modifications.",
+        "zh_CN": "&c禁止一切 &l干扰他人,K头,偷刀等 &r&c行为"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item5.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e&lSMP Survival",
+        "zh_CN": "&e&l领域服生存"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item5.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Our SMP Survival features &cno land protection&7,",
+        "zh_CN": "&7纯粹的&e1.20.1&7高版本生存"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item5.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7and the freedom to do anything except hacking.",
+        "zh_CN": "&7带来领域服务器一样体验感"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item5.lore.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7*You can even do wall jumps from Ultrakits!",
+        "zh_CN": "&7是&6养老&7休闲社区建筑的好去处"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item6.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e&lTeam-Based Ultrakits &r&c(WIP)",
+        "zh_CN": "&e&l职业团战"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item6.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Enjoy some classic team-based",
+        "zh_CN": "&e团队合作&7占点型职业战争"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item6.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7competition, such as point-capture,",
+        "zh_CN": "&7是策略与意识必不可少的玩法"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item6.lore.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7all while using your favorite",
+        "zh_CN": "&7看您是否与队友配合默契,"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item6.lore.line3",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Ultrakits kit!",
+        "zh_CN": "&7赢下这场比赛?"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item7.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e&lLifesteal &r&c(WIP)",
+        "zh_CN": "&e&lLiteSMP &r&b&oTest!"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item7.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Our Lifesteal server where you can steal",
+        "zh_CN": "&7无政府的生存玩法"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item7.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7other's health limit by slaying them.",
+        "zh_CN": "&7杀人将得到额外的血量"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item8.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e&l1.9+ Bedwars",
+        "zh_CN": "&e&l起床战争 &r&o&bTest!"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item8.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7What if Bedwars adapted the Combat Update?",
+        "zh_CN": "&7高版本的起床战争"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item8.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7With the removal of sword blocking,",
+        "zh_CN": "&7老版本与新版本的结合"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item8.lore.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7shields are made available in the store.",
+        "zh_CN": "&7熟悉的味道不一样的战斗方式"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item8.lore.line3",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7*Pro tip: Buy an axe or else!",
+        "zh_CN": "&7是偷床与搭路大师的天堂?"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item9.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e&lPocket Games",
+        "zh_CN": "&e&l掌机终端"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item9.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Play some bite-sized microgames",
+        "zh_CN": "&7高版本的起床战争"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item9.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7right here at the lobby.",
+        "zh_CN": "&7熟悉的味道不一样的战斗方式"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item9.lore.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7You can even challenge other players",
+        "zh_CN": "&7看您是否与队友配合默契,"
+      }
+    },
+    {
+      "key": "container.game_menus.main.item9.lore.line3",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7with &9/pgames duel <player>&7!",
+        "zh_CN": "&7赢下这场比赛?"
       }
     },
   ]
