@@ -1586,8 +1586,24 @@
       "key": "container.lobby_inventories.main.item4.name.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&e&oFriends (WIP)",
+        "en_GB": "&e&oFriends (WIP, use /friend instead)",
         "zh_CN": "&e&o好友菜单"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.login.item0.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aQuick Entry",
+        "zh_CN": "&a进入服务器"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.login.item0.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7the \"Enter Crazylands\" page",
+        "zh_CN": "&7介绍 并进入服务器"
       }
     },
     {
@@ -1882,7 +1898,7 @@
       "key": "container.game_menus.main.item7.lore.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&7Our Lifesteal server where you can steal",
+        "en_GB": "&7Our Lifesteal server where killing other",
         "zh_CN": "&7无政府的生存玩法"
       }
     },
@@ -1890,7 +1906,7 @@
       "key": "container.game_menus.main.item7.lore.line1",
       "type": "text",
       "languages": {
-        "en_GB": "&7other's health limit by slaying them.",
+        "en_GB": "&7players steals some of their health limit.",
         "zh_CN": "&7杀人将得到额外的血量"
       }
     },
@@ -1947,7 +1963,7 @@
       "type": "text",
       "languages": {
         "en_GB": "&7Play some bite-sized microgames",
-        "zh_CN": "&7高版本的起床战争"
+        "zh_CN": "&7多种各式各样的 &b掌机游戏"
       }
     },
     {
@@ -1955,7 +1971,7 @@
       "type": "text",
       "languages": {
         "en_GB": "&7right here at the lobby.",
-        "zh_CN": "&7熟悉的味道不一样的战斗方式"
+        "zh_CN": "&7在GUI内即可开始游戏"
       }
     },
     {
@@ -1963,7 +1979,7 @@
       "type": "text",
       "languages": {
         "en_GB": "&7You can even challenge other players",
-        "zh_CN": "&7看您是否与队友配合默契,"
+        "zh_CN": "&7还可以多人进行对战PK"
       }
     },
     {
@@ -1971,7 +1987,7 @@
       "type": "text",
       "languages": {
         "en_GB": "&7with &9/pgames duel <player>&7!",
-        "zh_CN": "&7赢下这场比赛?"
+        "zh_CN": "&7体验各种丰富经典的菜单小游戏"
       }
     },
   ]
