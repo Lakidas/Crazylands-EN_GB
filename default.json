@@ -1495,6 +1495,182 @@
       }
     },
     {
+      "key": "hologram.shared.parkour_checkpoint.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&b&lCheckpoint #%s%",
+        "zh_CN": "&b&l检查点 #%s%"
+      }
+    },
+    {
+      "key": "hologram.shared.parkour_goal.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&9&l-GOAL-",
+        "zh_CN": "&9跑酷结束~"
+      }
+    },
+    {
+      "key": "prompt.parkour_started.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fParkour started!",
+        "zh_CN": "&f你开始了一场跑酷!"
+      }
+    },
+    {
+      "key": "prompt.parkour_restarted.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fParkour restarted!",
+        "zh_CN": "&f你已经重新开始了跑酷! 时间已重置!"
+      }
+    },
+    {
+      "key": "prompt.parkour_back_to_beginning.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fSending you back to the parkour entrance.",
+        "zh_CN": "&f成功将你传送到跑酷起点."
+      }
+    },
+    {
+      "key": "prompt.parkour_back_to_checkpoint.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fSending you back to the last checkpoint.",
+        "zh_CN": "&f成功将你传送到上一个记录点."
+      }
+    },
+    {
+      "key": "prompt.parkour_ended.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fParkour ended!",
+        "zh_CN": "&f你离开了跑酷."
+      }
+    },
+    {
+      "key": "prompt.parkour_checkpoint_first_time.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fCheckpoint #%s% reached in %s%.",
+        "zh_CN": "&f你已到达检查点 &a%s%&f! (耗时:%s%)"
+      }
+    },
+    {
+      "key": "prompt.parkour_checkpoint.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fCheckpoint #%s% reached in %s%. (PB: &a%s%&f)",
+        "zh_CN": "&f你已到达检查点 &a%s%&f! (耗时:%s%, 个人最佳:&a%s%&f)"
+      }
+    },
+    {
+      "key": "prompt.parkour_checkpoint_new_best.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fNew PB founded in checkpoint #%s%! (%s% -> &a%s%&f)",
+        "zh_CN": "&f你已到达检查点 &a%s%&f! (新个人最佳! %s% -> &a%s%&f)"
+      }
+    },
+    {
+      "key": "prompt.parkour_checkpoint_new_best.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fNew personal best of CP #%s%! (%s% -> &a%s%&f)",
+        "zh_CN": "&f你已到达检查点 &a%s%&f! (新个人最佳! %s% -> &a%s%&f)"
+      }
+    },
+    {
+      "key": "prompt.parkour_checkpoint_not_in_parkour.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cYou haven't started parkour yet!",
+        "zh_CN": "&c必须开始跑酷才能使用检查站!"
+      }
+    },
+    {
+      "key": "prompt.parkour_goal_not_in_parkour.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&c&nYou need &ostart&r&c&n the parkour before finishing it, y' know.",
+        "zh_CN": "&c必须开始跑酷才能通过终点!"
+      }
+    },
+    {
+      "key": "prompt.parkour_insufficient_checkpoints.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cYou haven't reached all the checkpoints yet!",
+        "zh_CN": "&c你没有跑过所有的检查点,已被踢出跑酷!"
+      }
+    },
+    {
+      "key": "prompt.parkour_illegal_abilities.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cIllegal abilities detected!",
+        "zh_CN": "&c你不能在跑酷中使用特殊能力,已被踢出跑酷!"
+      }
+    },
+    {
+      "key": "prompt.parkour_teleportation.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cTeleportation detected!",
+        "zh_CN": "&c你不能在跑酷中传送,已被踢出跑酷!"
+      }
+    },
+    {
+      "key": "prompt.parkour_confirm_hint.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7(Click again to confirm operation.)",
+        "zh_CN": "&7再次单击该物品以确认你的操作."
+      }
+    },
+    {
+      "key": "container.parkour_inventory.item0.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aReturn to checkpoint",
+        "zh_CN": "&a上一个检查点"
+      }
+    },
+    {
+      "key": "container.parkour_inventory.item1.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cReturn to beginning",
+        "zh_CN": "&c重置跑酷"
+      }
+    },
+    {
+      "key": "container.parkour_inventory.item2.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&4End parkour",
+        "zh_CN": "&4结束跑酷"
+      }
+    },
+    {
+      "key": "container.parkour_inventory.item3.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aOther players: Shown",
+        "zh_CN": "&a显示全部玩家"
+      }
+    },
+    {
+      "key": "container.parkour_inventory.item4.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cOther players: Hidden",
+        "zh_CN": "&c隐藏全部玩家"
+      }
+    },
+    {
       "key": "container.lobby_inventories.shared.open_hint",
       "type": "text",
       "languages": {
@@ -1988,6 +2164,142 @@
       "languages": {
         "en_GB": "&7with &9/pgames duel <player>&7!",
         "zh_CN": "&7体验各种丰富经典的菜单小游戏"
+      }
+    },
+    {
+      "key": "prompt.earn_coin.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&8+&6%s% coins",
+        "zh_CN": "&8+&6%s% 硬币"
+      }
+    },
+    {
+      "key": "prompt.earn_coin_bonus.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&8+&6%s% coins (Bonus: %s%)",
+        "zh_CN": "&8+&6%s% 硬币 (+%s% 额外加成)"
+      }
+    },
+    {
+      "key": "prompt.earn_xp.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&8+&3%s% XP",
+        "zh_CN": "&8+&3%s% 小游戏经验"
+      }
+    },
+    {
+      "key": "prompt.general_request.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Your request has been sent.",
+        "zh_CN": "&7您已成功发送请求,请耐心等候回应..."
+      }
+    },
+    {
+      "key": "prompt.teams.insufficient_permission.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&4Insufficient permission.",
+        "zh_CN": "&7您没有权限修改此选项!"
+      }
+    },
+    {
+      "key": "prompt.teams.disband.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Your team has been disbanded.",
+        "zh_CN": "&7队伍已解散!"
+      }
+    },
+    {
+      "key": "prompt.enter_queue.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Entered queue: &b%s%",
+        "zh_CN": "&7正在为您寻找 &b%s% &7的决斗对局..."
+      }
+    },
+    {
+      "key": "prompt.leave_queue.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Left queue.",
+        "zh_CN": "&7你离开了 &b%s% &7的对局匹配!"
+      }
+    },
+    {
+      "key": "prompt.opponent_found.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Your opponent: &c%s%",
+        "zh_CN": "&7本次决斗对手: &c%s%"
+      }
+    },
+    {
+      "key": "prompt.match_countdown.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Starting in: %s%",
+        "zh_CN": "&7本次决斗将在 &b&l%s% &r&7秒后开始!"
+      }
+    },
+    {
+      "key": "prompt.match_started.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cGo!",
+        "zh_CN": "&c决斗开始!"
+      }
+    },
+    {
+      "key": "prompt.match_summary.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fDuration: &a%s%",
+        "zh_CN": "&f决斗时长: &a%s%"
+      }
+    },
+    {
+      "key": "prompt.match_summary.line3",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fArena: &e%s%",
+        "zh_CN": "&f决斗场地: &e%s%"
+      }
+    },
+    {
+      "key": "prompt.match_summary.line4",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fKit used: &b%s%",
+        "zh_CN": "&f模式: &b%s%"
+      }
+    },
+    {
+      "key": "prompt.match_summary.line6",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fVictorious: &b%s% &7(&c%s%&7)",
+        "zh_CN": "&f&b获胜: &f%s% &b&7/&r&c%s%"
+      }
+    },
+    {
+      "key": "prompt.match_summary.line7",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fDefeat: &b%s% &7(&c%s%&7)",
+        "zh_CN": "&f&b失败: &f%s% &b&7/&r&c%s%"
+      }
+    },
+    {
+      "key": "prompt.match_summary.line7",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fDefeat: &b%s% &7(&c%s%&7)",
+        "zh_CN": "&f&b失败: &f%s% &b&7/&r&c%s%"
       }
     },
   ]
