@@ -1098,7 +1098,7 @@
       "key": "hologram.diamond_loot_box.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&c[WIP] &e&lLoot Box (Diamond)",
+        "en_GB": "&e&lLoot Box (Diamond)",
         "zh_CN": "&e&l钻石宝箱"
       }
     },
@@ -1106,7 +1106,7 @@
       "key": "hologram.diamond_loot_box.line1",
       "type": "text",
       "languages": {
-        "en_GB": "&7Costs &e50 diamonds",
+        "en_GB": "&7Costs &e1 diamond key",
         "zh_CN": "&7使用 &b钻石 &7进行抽奖"
       }
     },
@@ -1115,15 +1115,23 @@
       "type": "text",
       "languages": {
         "en_GB": "&7(Shift+Click to skip animation)",
-        "zh_CN": "&7每次抽奖将花费 &e100 硬币"
+        "zh_CN": "&7每次抽奖将花费 &e100 钻石"
       }
     },
     {
-      "key": "hologram.diamond_loot_box.line1",
+      "key": "prompt.loot_box_outcome_personal",
       "type": "text",
       "languages": {
-        "en_GB": "&7Costs &e50 diamonds",
-        "zh_CN": "&7使用 &b钻石 &7进行抽奖"
+        "en_GB": "&7Lootbox dropped: %s%",
+        "zh_CN": "&7你从 %s% &7中获得了 %s% &7奖励!"
+      }
+    },
+    {
+      "key": "prompt.loot_box_outcome_boardcast",
+      "type": "text",
+      "languages": {
+        "en_GB": "&a%s% &7has found %s% &7from %s%&7!",
+        "zh_CN": "&7玩家 &a%s% &7刚刚从 %s% &7中获得了 %s% &7奖励!"
       }
     },
     {
@@ -1695,10 +1703,50 @@
       }
     },
     {
+      "key": "container.lobby_inventories.shared.recommended_version",
+      "type": "text",
+      "languages": {
+        "en_GB": "&c(1.12.2-1.20.4)",
+        "zh_CN": "&c推荐游戏版本: 1.12.2-1.20.4"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.shared.connect_hint",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": "&e点击连接到此处"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.shared.start_hint",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": "&e点击即可 &a开始游戏"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.shared.player_count",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Player count: &c%s%",
+        "zh_CN": "&7当前&c%s%&7名玩家正在游戏中!"
+      }
+    },
+    {
+      "key": "container.lobby_inventories.shared.player_count_alt",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fServer-wide player count: &a%s%",
+        "zh_CN": "&f在线人数: &a%s% &7[%s%&7]"
+      }
+    },
+    {
       "key": "container.lobby_inventories.main.item0.name.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&aGames Menu",
+        "en_GB": "&aGame Menu",
         "zh_CN": "&a游戏菜单"
       }
     },
@@ -1791,7 +1839,7 @@
       }
     },
     {
-      "key": "container.game_menus.main.item0.name.line0",
+      "key": "container.game_menus.shared.main_lobby.name.line0",
       "type": "text",
       "languages": {
         "en_GB": "&6&lLobby",
@@ -1799,7 +1847,7 @@
       }
     },
     {
-      "key": "container.game_menus.main.item0.lore.line0",
+      "key": "container.game_menus.shared.main_lobby.lore.line0",
       "type": "text",
       "languages": {
         "en_GB": "&7The main lobby of Crazylands.",
@@ -1807,7 +1855,7 @@
       }
     },
     {
-      "key": "container.game_menus.main.item0.lore.line1",
+      "key": "container.game_menus.shared.main_lobby.lore.line1",
       "type": "text",
       "languages": {
         "en_GB": "&7Note that certain preferences",
@@ -1815,7 +1863,7 @@
       }
     },
     {
-      "key": "container.game_menus.main.item0.lore.line2",
+      "key": "container.game_menus.shared.main_lobby.lore.line2",
       "type": "text",
       "languages": {
         "en_GB": "&7can only be edited here!",
@@ -2167,6 +2215,94 @@
       }
     },
     {
+      "key": "container.game_menus.minigames.item1.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e&lManhunt",
+        "zh_CN": "&e&l猎人游戏"
+      }
+    },
+    {
+      "key": "container.game_menus.minigames.item1.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Manhunt is a popular minigame where several &chunters",
+        "zh_CN": "&7经典的猎人vs速通者小游戏"
+      }
+    },
+    {
+      "key": "container.game_menus.minigames.item1.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7would utilize their compass to hunt down one or more",
+        "zh_CN": "&7经典的猎人vs速通者小游戏"
+      }
+    },
+    {
+      "key": "container.game_menus.minigames.item1.lore.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aspeedrunner&7, whose goal is to beat the ender dragon.",
+        "zh_CN": "&7那么?您究竟是&c猎人&7还是&a逃亡者&7?"
+      }
+    },
+    {
+      "key": "container.game_menus.minigames.item2.name.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&e&lBuild Battle",
+        "zh_CN": "&e&l建筑大师 &r&o&cNew!"
+      }
+    },
+    {
+      "key": "container.game_menus.minigames.item2.lore.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Play solo against other players!",
+        "zh_CN": "&7艺术就是奇思妙想?"
+      }
+    },
+    {
+      "key": "container.game_menus.minigames.item2.lore.line1",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7Once the theme has been established, everyone",
+        "zh_CN": "&7也许你应该试试看自己能造出怎样的艺术"
+      }
+    },
+    {
+      "key": "container.game_menus.minigames.item2.lore.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7gets 5 minutes to build before voting begins.",
+        "zh_CN": "&7*一切&d艺术行为&7由大家评判!"
+      }
+    },
+    {
+      "key": "prompt.level_up.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&a&ko &r&66Level Up! &a&ko",
+        "zh_CN": "&a&ko &r&6升级! &a&ko"
+      }
+    },
+    {
+      "key": "prompt.level_up.line2",
+      "type": "text",
+      "languages": {
+        "en_GB": "&a&ko &r&66Level Up! &a&ko",
+        "zh_CN": "&a&ko &r&6升级! &a&ko"
+      }
+    },
+    {
+      "key": "prompt.level_up.line4",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7New level: %s%",
+        "zh_CN": "&7你当前%s%!"
+      }
+    },
+    {
       "key": "prompt.earn_coin.line0",
       "type": "text",
       "languages": {
@@ -2210,7 +2346,7 @@
       "key": "prompt.mute_notify.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&c%s% &7has been muted by &a%s% &7for %s%. (Reason: &c%s%&7)",
+        "en_GB": "&l&c%s% &7has been muted by &a%s% &7for %s%. (Reason: &c%s%&7)",
         "zh_CN": "&c%s% &7被 &a%s% &7临时禁言了IP地址 时间: &b%s% &7原因: &c%s%"
       }
     },
@@ -2227,7 +2363,7 @@
       "type": "text",
       "languages": {
         "en_GB": "&cInsufficient material.",
-        "zh_CN": "&c您暂时没有足够的%s%去兑换这个%s%呢!"
+        "zh_CN": "&c您暂时没有足够的%s%去%s%这个%s%呢!"
       }
     },
     {
@@ -2242,15 +2378,15 @@
       "key": "prompt.acquire_item_success.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&aAcquired Item: %s%(%s%)",
-        "zh_CN": "&7已获得 道具 &l> &r&f%s%&e*%s%"
+        "en_GB": "&aAcquired Item(s): %s%(%s%)",
+        "zh_CN": "&7已获得 道具 &l> &r&f%s% &ex%s%"
       }
     },
     {
       "key": "title.acquire_success.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&aItem acquired.",
+        "en_GB": "&aItem Acquired",
         "zh_CN": "&a恭喜您获得此%s%"
       }
     },
@@ -2260,6 +2396,22 @@
       "languages": {
         "en_GB": "",
         "zh_CN": "&a感谢您的购买"
+      }
+    },
+    {
+      "key": "prompt.exchanged_items.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aExchanged &f%s% &a%s% for &a%s% &f%s%.",
+        "zh_CN": "&d已扣除 &a%s% &d%s%,兑换 &a%s% &d%s%"
+      }
+    },
+    {
+      "key": "prompt.coming_soon.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cFeature is in WIP! Coming soon.",
+        "zh_CN": "&c暂未开放,敬请期待!"
       }
     },
     {
