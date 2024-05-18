@@ -95,7 +95,7 @@
       }
     },
     {
-      "key": "prompt.entry.3",
+      "key": "prompt.entry.line3",
       "type": "text",
       "languages": {
         "en_GB": "&7Crazylands is in public beta.",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "key": "prompt.entry.4",
+      "key": "prompt.entry.line4",
       "type": "text",
       "languages": {
         "en_GB": "&7Suggestions and feedbacks is welcome!",
@@ -111,11 +111,27 @@
       }
     },
     {
-      "key": "prompt.entry.6",
+      "key": "prompt.entry.line6",
       "type": "text",
       "languages": {
         "en_GB": "&7Our QQ group chat number: &a389325267",
         "zh_CN": "&7Our QQ group chat number: &a389325267"
+      }
+    },
+    {
+      "key": "prompt.lobby_entry.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aFetching available lobbies...",
+        "zh_CN": "&a正在为您分配服务器进行传送..."
+      }
+    },
+    {
+      "key": "title.lobby_entry.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&b&lYou are current at:",
+        "zh_CN": "&b&l当前所在频道"
       }
     },
     {
@@ -250,7 +266,7 @@
       "key": "container.premium_verifier.shared.verify_hint.line1",
       "type": "text",
       "languages": {
-        "en_GB": "&8After verifying, try repeating the process.",
+        "en_GB": "&8after verifying, try repeating the process.",
         "zh_CN": "&8建议多尝试几次"
       }
     },
