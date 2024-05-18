@@ -2,7 +2,7 @@
   "metadata": {
     "blacklist": true,
     "servers": [
-      "play.moonlight.pub"
+      "Crazylands"
     ]
   },
   "items": [
@@ -10,16 +10,16 @@
       "key": "scoreboard.login.line4",
       "type": "text",
       "languages": {
-        "en_GB": "&fRegister: /register <password> <confirm password>",
-        "zh_CN": "&f注册: /reg <密码> <重复密码>"
+        "en_GB": "&fRegister: &a/register password password",
+        "zh_CN": "&f注册: &a/reg 密码 密码"
       }
     },
     {
       "key": "scoreboard.login.line6",
       "type": "text",
       "languages": {
-        "en_GB": "&fLogin: /login <password>",
-        "zh_CN": "&f登录: /l <密码>"
+        "en_GB": "&fLogin: &a/login password",
+        "zh_CN": "&f登录: &a/l 密码"
       }
     },
     {
@@ -42,16 +42,16 @@
       "key": "prompt.login_hint.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&7Log in with &b/login <password>&7.",
-        "zh_CN": "&7请输入 &b/l <密码> &7进行登录"
+        "en_GB": "&7Log in with &b/login <password>",
+        "zh_CN": "&7请输入 &b/l 密码 &7进行登录"
       }
     },
     {
       "key": "prompt.register_hint.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&7Register with &b/register <password> <confirmPassword>&7.",
-        "zh_CN": "&7注册输入 &b/reg <密码> <重复密码>"
+        "en_GB": "&7Register with &b/register <password> <confirmPassword>",
+        "zh_CN": "&7注册输入 &b/reg 密码 重复密码"
       }
     },
     {
@@ -95,7 +95,7 @@
       }
     },
     {
-      "key": "prompt.entry.line3",
+      "key": "prompt.entry.3",
       "type": "text",
       "languages": {
         "en_GB": "&7Crazylands is in public beta.",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "key": "prompt.entry.line4",
+      "key": "prompt.entry.4",
       "type": "text",
       "languages": {
         "en_GB": "&7Suggestions and feedbacks is welcome!",
@@ -111,27 +111,11 @@
       }
     },
     {
-      "key": "prompt.entry.line6",
+      "key": "prompt.entry.6",
       "type": "text",
       "languages": {
         "en_GB": "&7Our QQ group chat number: &a389325267",
         "zh_CN": "&7Our QQ group chat number: &a389325267"
-      }
-    },
-    {
-      "key": "prompt.lobby_entry.line0",
-      "type": "text",
-      "languages": {
-        "en_GB": "&aFetching available lobbies...",
-        "zh_CN": "&a正在为您分配服务器进行传送..."
-      }
-    },
-    {
-      "key": "title.lobby_entry.line0",
-      "type": "text",
-      "languages": {
-        "en_GB": "&b&lYou are current at:",
-        "zh_CN": "&b&l当前所在频道"
       }
     },
     {
@@ -154,8 +138,8 @@
       "key": "npc.contributor2.name.line0",
       "type": "text",
       "languages": {
-        "en_GB": "OP: 99885",
-        "zh_CN": "管理:99885"
+        "en_GB": "BUILDER: Karkisuki",
+        "zh_CN": "建筑: Karkisuki"
       }
     },
     {
@@ -266,7 +250,7 @@
       "key": "container.premium_verifier.shared.verify_hint.line1",
       "type": "text",
       "languages": {
-        "en_GB": "&8after verifying, try repeating the process.",
+        "en_GB": "&8After verifying, try repeating the process.",
         "zh_CN": "&8建议多尝试几次"
       }
     },
