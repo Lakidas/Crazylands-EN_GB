@@ -1378,7 +1378,7 @@
       "key": "sign.contributor5.line2",
       "type": "text",
       "languages": {
-        "en_GB": "&oover there?&r\"",
+        "en_GB": "over there?&r\"",
         "zh_CN": "——我早晚把985杀了"
       }
     },
@@ -1594,7 +1594,7 @@
       "key": "prompt.parkour_goal_not_in_parkour.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&c&nYou need &ostart&r&c&n the parkour before finishing it, y' know.",
+        "en_GB": "&c&nYou need to actually &ostart&r&c&n the parkour before finishing it, y' know.",
         "zh_CN": "&c必须开始跑酷才能通过终点!"
       }
     },
@@ -1618,7 +1618,7 @@
       "key": "prompt.parkour_teleportation.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&cTeleportation detected!",
+        "en_GB": "&cTeleportation hacks detected!",
         "zh_CN": "&c你不能在跑酷中传送,已被踢出跑酷!"
       }
     },
@@ -1987,7 +1987,7 @@
       "type": "text",
       "languages": {
         "en_GB": "&7*Features no knockback modifications.",
-        "zh_CN": "&c禁止一切 &l干扰他人,K头,偷刀等 &r&c行为"
+        "zh_CN": "&c禁止一切 &l干扰正常游玩,K头,偷刀等 &r&c行为"
       }
     },
     {
@@ -2018,7 +2018,7 @@
       "key": "container.game_menus.main.item5.lore.line2",
       "type": "text",
       "languages": {
-        "en_GB": "&7*You can even do wall jumps from Ultrakits!",
+        "en_GB": "&7*You can even perform wall jumps from Ultrakits!",
         "zh_CN": "&7是&6养老&7休闲社区建筑的好去处"
       }
     },
@@ -2106,7 +2106,7 @@
       "key": "container.game_menus.main.item8.lore.line1",
       "type": "text",
       "languages": {
-        "en_GB": "&7With the removal of sword blocking,",
+        "en_GB": "&7*As blocking with swords has been removed,",
         "zh_CN": "&7老版本与新版本的结合"
       }
     },
@@ -2122,7 +2122,7 @@
       "key": "container.game_menus.main.item8.lore.line3",
       "type": "text",
       "languages": {
-        "en_GB": "&7*Pro tip: Buy an axe or else!",
+        "en_GB": "&7**Pro tip: Buy an axe or else!",
         "zh_CN": "&7是偷床与搭路大师的天堂?"
       }
     },
@@ -2191,6 +2191,78 @@
       }
     },
     {
+      "key": "prompt.swearing_detected.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cInappropriate message detected.",
+        "zh_CN": "&7你该条信息可能包含敏感词汇,为保护游戏环境,已被禁止发出"
+      }
+    },
+    {
+      "key": "prompt.advertisements_detected.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cAdvertisements detected.",
+        "zh_CN": "&7你该条信息可能包含敏感词汇,为保护游戏环境,已被禁止发出"
+      }
+    },
+    {
+      "key": "prompt.mute_notify.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&c%s% &7has been muted by &a%s% &7for %s%. (Reason: &c%s%&7)",
+        "zh_CN": "&c%s% &7被 &a%s% &7临时禁言了IP地址 时间: &b%s% &7原因: &c%s%"
+      }
+    },
+    {
+      "key": "prompt.muted.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&7You are being muted! (&b%s% &7left)",
+        "zh_CN": "&7由于您违规发言暂时被禁止进一步发言 (时间:&b%s%&7)"
+      }
+    },
+    {
+      "key": "prompt.acquire_insufficient_material.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cInsufficient material.",
+        "zh_CN": "&c您暂时没有足够的%s%去兑换这个%s%呢!"
+      }
+    },
+    {
+      "key": "prompt.acquire_success.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aAcquired: %s%",
+        "zh_CN": "&7已获得 %s% &l> &r&f%s%"
+      }
+    },
+    {
+      "key": "prompt.acquire_item_success.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aAcquired Item: %s%(%s%)",
+        "zh_CN": "&7已获得 道具 &l> &r&f%s%&e*%s%"
+      }
+    },
+    {
+      "key": "title.acquire_success.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&aItem acquired.",
+        "zh_CN": "&a恭喜您获得此%s%"
+      }
+    },
+    {
+      "key": "subtitle.acquire_success.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "",
+        "zh_CN": "&a感谢您的购买"
+      }
+    },
+    {
       "key": "prompt.general_request.line0",
       "type": "text",
       "languages": {
@@ -2242,7 +2314,7 @@
       "key": "prompt.match_countdown.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&7Starting in: %s%",
+        "en_GB": "&7%s%...",
         "zh_CN": "&7本次决斗将在 &b&l%s% &r&7秒后开始!"
       }
     },
@@ -2258,7 +2330,7 @@
       "key": "prompt.match_summary.line1",
       "type": "text",
       "languages": {
-        "en_GB": "&fDuration: &a%s%",
+        "en_GB": "&fFight duration: &a%s%",
         "zh_CN": "&f决斗时长: &a%s%"
       }
     },
@@ -2282,7 +2354,7 @@
       "key": "prompt.match_summary.line6",
       "type": "text",
       "languages": {
-        "en_GB": "&fVictorious: &b%s% &7(&c%s%&7)",
+        "en_GB": "&fVictory: &b%s% &7(&c%s%&7)",
         "zh_CN": "&f&b获胜: &f%s% &b&7/&r&c%s%"
       }
     },
