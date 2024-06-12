@@ -1251,7 +1251,7 @@
       "type": "text",
       "languages": {
         "en_GB": "-The one and only,",
-        "zh_CN": "至今为止疯狂之地所有"
+        "zh_CN": "疯狂之地的缔造者"
       }
     },
     {
@@ -1259,7 +1259,7 @@
       "type": "text",
       "languages": {
         "en_GB": "since 2016!",
-        "zh_CN": "建筑都为此人所建"
+        "zh_CN": "2016以来一直十分敬业"
       }
     },
     {
@@ -1315,7 +1315,7 @@
       "type": "text",
       "languages": {
         "en_GB": "-Is incredibly talented",
-        "zh_CN": "超过一定数额"
+        "zh_CN": "这么多年体验下来"
       }
     },
     {
@@ -1323,7 +1323,7 @@
       "type": "text",
       "languages": {
         "en_GB": "in bow aiming",
-        "zh_CN": "战争系列皮肤 开创者"
+        "zh_CN": "被誉为本服最强射手"
       }
     },
     {
@@ -1355,7 +1355,7 @@
       "type": "text",
       "languages": {
         "en_GB": "kit too well",
-        "zh_CN": ""
+        "zh_CN": "讨厌欢喜神"
       }
     },
     {
@@ -1594,7 +1594,7 @@
       "key": "prompt.parkour_checkpoint_not_in_parkour.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&cYou haven't started parkour yet!",
+        "en_GB": "&cYou haven't started the parkour yet!",
         "zh_CN": "&c必须开始跑酷才能使用检查站!"
       }
     },
@@ -1610,7 +1610,7 @@
       "key": "prompt.parkour_insufficient_checkpoints.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&cYou haven't reached all the checkpoints yet!",
+        "en_GB": "&cYou didn't reach all the checkpoints, aborting!",
         "zh_CN": "&c你没有跑过所有的检查点,已被踢出跑酷!"
       }
     },
@@ -1626,7 +1626,7 @@
       "key": "prompt.parkour_teleportation.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&cTeleportation hacks detected!",
+        "en_GB": "&cTeleportation exploits detected!",
         "zh_CN": "&c你不能在跑酷中传送,已被踢出跑酷!"
       }
     },
@@ -1698,7 +1698,7 @@
       "key": "container.lobby_inventories.shared.interact_key",
       "type": "text",
       "languages": {
-        "en_GB": "&7(Hold & click to use)",
+        "en_GB": "&7(Click while holding item to select)",
         "zh_CN": "&7行动指令: &bRight-click"
       }
     },
@@ -1802,7 +1802,7 @@
       "key": "container.lobby_inventories.main.item3.lore.line1",
       "type": "text",
       "languages": {
-        "en_GB": "&7every available lobby",
+        "en_GB": "&7available lobbies",
         "zh_CN": "&7服务器大厅列表"
       }
     },
@@ -1818,7 +1818,7 @@
       "key": "container.lobby_inventories.login.item0.name.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&aQuick Entry",
+        "en_GB": "&aQuick Enter",
         "zh_CN": "&a进入服务器"
       }
     },
@@ -1898,7 +1898,7 @@
       "key": "container.game_menus.main.item1.lore.line2",
       "type": "text",
       "languages": {
-        "en_GB": "&7Note: Ultrakits is being actively updated,",
+        "en_GB": "&7Note: Ultrakits undergoes tweaks frequently.",
         "zh_CN": "&7这里吃的不再是MC高超PvP技巧"
       }
     },
@@ -1906,7 +1906,7 @@
       "key": "container.game_menus.main.item1.lore.line3",
       "type": "text",
       "languages": {
-        "en_GB": "&7kit balance could change from time to time.",
+        "en_GB": "&7All kits might be subject to change.",
         "zh_CN": "&7而是你对职业或者是&d游戏&7的理解度"
       }
     },
@@ -2042,32 +2042,32 @@
       "key": "container.game_menus.main.item5.name.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&e&lSMP Survival",
-        "zh_CN": "&e&l领域服生存"
+        "en_GB": "&e&lSMP / Vanilla Survival",
+        "zh_CN": "&e&l生存服"
       }
     },
     {
       "key": "container.game_menus.main.item5.lore.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&7Our SMP Survival features &cno land protection&7,",
-        "zh_CN": "&7纯粹的&e1.20.1&7高版本生存"
+        "en_GB": "&7Crazylands Survival offers two worlds to play with.",
+        "zh_CN": "&7高版本生存服务器,同时具有SMP变种"
       }
     },
     {
       "key": "container.game_menus.main.item5.lore.line1",
       "type": "text",
       "languages": {
-        "en_GB": "&7and the freedom to do anything except hacking.",
-        "zh_CN": "&7带来领域服务器一样体验感"
+        "en_GB": "&7One has land protection, and the other one doesn't.",
+        "zh_CN": "&7战争与养老并存的奇妙体验"
       }
     },
     {
       "key": "container.game_menus.main.item5.lore.line2",
       "type": "text",
       "languages": {
-        "en_GB": "&7*You can even perform wall jumps from Ultrakits!",
-        "zh_CN": "&7是&6养老&7休闲社区建筑的好去处"
+        "en_GB": "&7*Player inventory are synced between two worlds.",
+        "zh_CN": "&7请斟酌后再进入 &c混乱世界"
       }
     },
     {
@@ -2235,7 +2235,7 @@
       "type": "text",
       "languages": {
         "en_GB": "&7would utilize their compass to hunt down one or more",
-        "zh_CN": "&7经典的猎人vs速通者小游戏"
+        "zh_CN": "&7体验Dream同款小游戏"
       }
     },
     {
@@ -2359,6 +2359,22 @@
       }
     },
     {
+      "key": "prompt.boardcast_megaphone_used.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&fSent boardcast. &e%s% &fmegaphone(s) left.",
+        "zh_CN": "&f你使用了 &e 1 &f个喇叭,剩余喇叭 &e%s% &f个."
+      }
+    },
+    {
+      "key": "prompt.boardcast_prohibited.line0",
+      "type": "text",
+      "languages": {
+        "en_GB": "&cYou are prohibited from sending boardcasts.",
+        "zh_CN": "&c你被禁止使用喇叭了!"
+      }
+    },
+    {
       "key": "prompt.acquire_insufficient_material.line0",
       "type": "text",
       "languages": {
@@ -2402,7 +2418,7 @@
       "key": "prompt.exchanged_items.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&aExchanged &f%s% &a%s% for &a%s% &f%s%.",
+        "en_GB": "&aExchanged &a%s% &f%s% for &a%s% &f%s%.",
         "zh_CN": "&d已扣除 &a%s% &d%s%,兑换 &a%s% &d%s%"
       }
     },
@@ -2410,7 +2426,7 @@
       "key": "prompt.coming_soon.line0",
       "type": "text",
       "languages": {
-        "en_GB": "&cFeature is in WIP! Coming soon.",
+        "en_GB": "&cFeature is in WIP! Stay tuned.",
         "zh_CN": "&c暂未开放,敬请期待!"
       }
     },
